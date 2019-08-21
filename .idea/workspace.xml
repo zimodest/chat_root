@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c682339-5f60-428c-8e35-56a410f9a6dc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4c682339-5f60-428c-8e35-56a410f9a6dc" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,8 +58,8 @@
       <file leaf-file-name="read.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/read.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+            <state relative-caret-position="176">
+              <caret line="56" selection-start-line="56" selection-end-line="56" />
             </state>
           </provider>
         </entry>
@@ -175,7 +173,6 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/21f8ee8d-fb3c-4c79-a344-c7fa60d8fdbd/console.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/modest/client/service/PrivateChat.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/modest/client/service/PrivateChatGui.form" />
-        <option value="$PROJECT_DIR$/src/read.txt" />
         <option value="$PROJECT_DIR$/src/main/java/com/modest/client/service/CreateGroupGUI.form" />
         <option value="$PROJECT_DIR$/src/main/java/com/modest/client/service/CreateGroupGUI.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/modest/client/service/Connect2Server.java" />
@@ -191,6 +188,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/modest/client/service/GroupChatGui.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/modest/client/service/UserLogin.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/modest/client/service/FriendsList.java" />
+        <option value="$PROJECT_DIR$/src/read.txt" />
       </list>
     </option>
   </component>
@@ -228,7 +226,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="252" />
+    <option name="x" value="585" />
+    <option name="y" value="1" />
     <option name="width" value="1605" />
     <option name="height" value="1103" />
   </component>
@@ -265,6 +264,33 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chat_root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chat_root" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="modest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chat_root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chat_root" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="modest" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chat_root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chat_root" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="modest" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -473,7 +499,7 @@
       <workItem from="1566178879273" duration="9727000" />
       <workItem from="1566227129767" duration="623000" />
       <workItem from="1566312746412" duration="13155000" />
-      <workItem from="1566369002479" duration="6410000" />
+      <workItem from="1566369002479" duration="6762000" />
     </task>
     <servers />
   </component>
@@ -504,7 +530,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53467000" />
+    <option name="totallyTimeSpent" value="53819000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -516,7 +542,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="202" y="0" width="1284" height="882" extended-state="0" />
+    <frame x="468" y="1" width="1284" height="882" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.03314917" />
@@ -529,7 +555,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.260989" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33012378" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.6574966" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Designer" order="4" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49861878" visible="true" weight="0.3026101" />
@@ -918,8 +944,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/read.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+        <state relative-caret-position="176">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
         </state>
       </provider>
     </entry>
