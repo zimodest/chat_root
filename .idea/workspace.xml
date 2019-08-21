@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c682339-5f60-428c-8e35-56a410f9a6dc" name="Default" comment="" />
+    <list default="true" id="4c682339-5f60-428c-8e35-56a410f9a6dc" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,11 +48,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FriendsList.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FriendsList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/modest/client/service/FriendsList.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="341">
               <caret line="174" column="47" selection-start-line="174" selection-start-column="47" selection-end-line="174" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="read.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/read.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -127,15 +138,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/21f8ee8d-fb3c-4c79-a344-c7fa60d8fdbd/console.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -146,6 +148,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -223,10 +228,11 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="58" />
+    <option name="x" value="252" />
     <option name="width" value="1605" />
     <option name="height" value="1103" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <hideEmptyPackages ProjectPane="false" />
@@ -467,7 +473,7 @@
       <workItem from="1566178879273" duration="9727000" />
       <workItem from="1566227129767" duration="623000" />
       <workItem from="1566312746412" duration="13155000" />
-      <workItem from="1566369002479" duration="5982000" />
+      <workItem from="1566369002479" duration="6410000" />
     </task>
     <servers />
   </component>
@@ -498,7 +504,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53039000" />
+    <option name="totallyTimeSpent" value="53467000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -510,7 +516,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <frame x="202" y="0" width="1284" height="882" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.03314917" />
@@ -521,12 +527,12 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32872927" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.3297587" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26104972" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.260989" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33012378" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Designer" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49861878" visible="true" weight="0.24865952" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49861878" visible="true" weight="0.3026101" />
       <window_info anchor="right" id="Database" order="3" weight="0.16756032" />
       <window_info id="Structure" order="1" sideWeight="0.5013812" side_tool="true" weight="0.23257373" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -667,6 +673,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4928">
           <caret line="263" column="26" selection-start-line="263" selection-start-column="26" selection-end-line="263" selection-end-column="26" />
+          <folding>
+            <element signature="e#8972#8973#0" expanded="true" />
+            <element signature="e#9006#9007#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -709,6 +719,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4928">
           <caret line="263" column="26" selection-start-line="263" selection-start-column="26" selection-end-line="263" selection-end-column="26" />
+          <folding>
+            <element signature="e#8972#8973#0" expanded="true" />
+            <element signature="e#9006#9007#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -792,13 +806,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
           <caret line="5621" column="29" selection-start-line="5621" selection-start-column="29" selection-end-line="5621" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/read.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="45" column="25" lean-forward="true" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -906,6 +913,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
           <caret line="174" column="47" selection-start-line="174" selection-start-column="47" selection-end-line="174" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/read.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
         </state>
       </provider>
     </entry>
