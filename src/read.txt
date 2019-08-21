@@ -1,0 +1,107 @@
+JDBC 传统格式
+
+1、加载驱动
+
+2、获取连接
+
+3、执行sql
+Statement   sql注入，通过拼接字符串忽略查询条件
+PreparedStatement  防范sql注入
+
+ResultSet
+select:executeQuery()
+insert/update/delete executeUpdate() 返回值：int  修改的行数
+
+4、关闭资源
+Connection
+Statement
+ResultSet
+
+
+
+
+数据源 datasource
+c3po
+druid 功能比较完全，监控
+Hakari spring内置数据源
+
+JPanel  存放其它组件的基础
+JLabel 标签组建
+JButton 按钮组建
+输入框 testFiled
+密码框 passwordFiled
+
+
+PrivateChat
+
+多行输入框  JTextArea
+JTextArea  用于显示好友发来的消息
+JTextArea 输入要发送的信息
+
+
+设置窗口的关闭行为
+frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+HIDE_ON_CLOSE  界面隐藏
+JFrame.EXIT_ON_CLOSE 界面关闭
+MouseListener
+
+//设置组件居中显示
+frame.setLocationRelativeTo(null);
+
+//设置组件纵向展示
+panel.setLayout(new boxLayout())
+
+// 判断checkbox是否被选中
+checkbox.isSelected()
+
+
+FriendsList
+Map 缓存私聊窗口
+
+
+
+创建群组
+
+点击创建群组标签后，创建群组界面
+
+群组界面
+CreateGroupGUI                            复选框 JCheckbox
+提交按钮 addActionlistener
+构造参数：myName  在线好友列表  服务端
+将好友显示在界面上
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
