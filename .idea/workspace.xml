@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c682339-5f60-428c-8e35-56a410f9a6dc" name="Default" comment="" />
+    <list default="true" id="4c682339-5f60-428c-8e35-56a410f9a6dc" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/modest/client/entity/CreateGroupGUI.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/modest/client/entity/GroupChatGUI.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/modest/client/service/FriendsList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/modest/client/service/FriendsList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/modest/client/service/PrivateChatGui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/modest/client/service/PrivateChatGui.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/modest/server/MultiThreadServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/modest/server/MultiThreadServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/modest/client/service/FriendsList$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/modest/client/service/FriendsList$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/modest/client/service/FriendsList$PrivateChatLabelMouser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/modest/client/service/FriendsList$PrivateChatLabelMouser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/modest/client/service/FriendsList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/modest/client/service/FriendsList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/modest/client/service/UserLogin$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/modest/client/service/UserLogin$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/modest/client/service/UserLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/modest/client/service/UserLogin.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,16 +58,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FriendsList.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FriendsList.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/modest/client/service/FriendsList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="174" column="47" selection-start-line="174" selection-start-column="47" selection-end-line="174" selection-end-column="47" />
+            <state relative-caret-position="106">
+              <caret line="85" column="84" selection-start-line="85" selection-start-column="84" selection-end-line="85" selection-end-column="84" />
+              <folding>
+                <element signature="e#6760#6761#0" expanded="true" />
+                <element signature="e#6811#6812#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="read.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="read.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/read.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
@@ -66,11 +82,6 @@
       </file>
       <file leaf-file-name="FriendsList.form" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/modest/client/service/FriendsList.form">
-          <provider selected="true" editor-type-id="ui-designer" />
-        </entry>
-      </file>
-      <file leaf-file-name="GroupChatGUI.form" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/modest/client/entity/GroupChatGUI.form">
           <provider selected="true" editor-type-id="ui-designer" />
         </entry>
       </file>
@@ -92,6 +103,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Connect2Server.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/modest/client/service/Connect2Server.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="39" column="41" lean-forward="true" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="GroupChatGui.form" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/modest/client/service/GroupChatGui.form">
           <provider selected="true" editor-type-id="ui-designer" />
@@ -100,8 +120,16 @@
       <file leaf-file-name="PrivateChatGui.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/modest/client/service/PrivateChatGui.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="946">
-              <caret line="50" column="57" selection-start-line="50" selection-start-column="57" selection-end-line="50" selection-end-column="57" />
+            <state relative-caret-position="334">
+              <caret line="76" column="10" selection-start-line="76" selection-start-column="10" selection-end-line="76" selection-end-column="10" />
+              <folding>
+                <element signature="e#1411#2249#0" expanded="true" />
+                <element signature="e#2248#2249#0" expanded="true" />
+                <element signature="e#2305#2306#0" expanded="true" />
+                <element signature="e#2346#2347#0" expanded="true" />
+                <element signature="e#2377#2378#0" expanded="true" />
+                <element signature="e#2410#2411#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -121,8 +149,8 @@
       <file leaf-file-name="MultiThreadServer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/modest/server/MultiThreadServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-495">
-              <caret line="103" selection-start-line="103" selection-end-line="103" />
+            <state relative-caret-position="184">
+              <caret line="85" column="52" lean-forward="true" selection-start-line="85" selection-start-column="52" selection-end-line="85" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -130,8 +158,8 @@
       <file leaf-file-name="UserLogin.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/modest/client/service/UserLogin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-55">
-              <caret line="57" column="34" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
+            <state relative-caret-position="275">
+              <caret line="81" column="37" lean-forward="true" selection-start-line="81" selection-start-column="37" selection-end-line="81" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -179,16 +207,16 @@
         <option value="$PROJECT_DIR$/src/main/java/com/modest/client/service/CreateGroupGui.form" />
         <option value="$PROJECT_DIR$/src/main/java/com/modest/client/dao/AccountDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/modest/client/service/UserReg.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/modest/client/service/PrivateChatGui.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/modest/client/service/CreateGroupGui.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/modest/server/MultiThreadServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/modest/client/service/GropChatGui.form" />
         <option value="$PROJECT_DIR$/src/main/java/com/modest/client/service/GropChatGui.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/modest/client/service/GroupChatGui.form" />
         <option value="$PROJECT_DIR$/src/main/java/com/modest/client/service/GroupChatGui.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/modest/client/service/UserLogin.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/modest/client/service/FriendsList.java" />
         <option value="$PROJECT_DIR$/src/read.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/modest/server/MultiThreadServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/modest/client/service/PrivateChatGui.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/modest/client/service/FriendsList.java" />
       </list>
     </option>
   </component>
@@ -225,9 +253,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="585" />
-    <option name="y" value="1" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="86" />
+    <option name="y" value="73" />
     <option name="width" value="1605" />
     <option name="height" value="1103" />
   </component>
@@ -291,6 +319,79 @@
               <item name="modest" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chat_root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chat_root" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="modest" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chat_root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chat_root" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="modest" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chat_root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chat_root" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="modest" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="FriendsList" type="e9f4de52:FormNode" />
+            </path>
+            <path>
+              <item name="chat_root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chat_root" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="modest" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="GroupChatGui" type="e9f4de52:FormNode" />
+            </path>
+            <path>
+              <item name="chat_root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chat_root" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="modest" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="PrivateChatGui" type="e9f4de52:FormNode" />
+            </path>
+            <path>
+              <item name="chat_root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chat_root" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="modest" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="UserLogin" type="e9f4de52:FormNode" />
+            </path>
+            <path>
+              <item name="chat_root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chat_root" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="modest" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -475,8 +576,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UserLogin" />
         <item itemvalue="Application.MultiThreadServer$ExecuteClient" />
+        <item itemvalue="Application.UserLogin" />
         <item itemvalue="Application.PrivateChatGui" />
         <item itemvalue="JUnit.JDBCTest.queryTest" />
         <item itemvalue="JUnit.JDBCTest.insertTest" />
@@ -499,7 +600,7 @@
       <workItem from="1566178879273" duration="9727000" />
       <workItem from="1566227129767" duration="623000" />
       <workItem from="1566312746412" duration="13155000" />
-      <workItem from="1566369002479" duration="6762000" />
+      <workItem from="1566369002479" duration="11489000" />
     </task>
     <servers />
   </component>
@@ -530,7 +631,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53819000" />
+    <option name="totallyTimeSpent" value="58546000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -542,7 +643,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="468" y="1" width="1284" height="882" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.03314917" />
@@ -553,16 +654,16 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32872927" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.3297587" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.260989" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4647303" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.6574966" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.11554333" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Designer" order="4" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49861878" visible="true" weight="0.3026101" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49861878" visible="true" weight="0.20107238" />
       <window_info anchor="right" id="Database" order="3" weight="0.16756032" />
       <window_info id="Structure" order="1" sideWeight="0.5013812" side_tool="true" weight="0.23257373" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info x="236" y="140" width="492" height="724" id="UI Designer" order="6" weight="0.28954422" />
+      <window_info x="236" y="140" width="492" height="724" id="UI Designer" order="6" weight="0.288874" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.25414366" />
       <window_info id="Favorites" order="5" sideWeight="0.5013812" side_tool="true" weight="0.23257373" />
@@ -576,34 +677,34 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info active="true" anchor="bottom" id="Database Console" order="7" visible="true" weight="0.32872927" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2562674" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Favorites" order="5" sideWeight="0.5013812" side_tool="true" weight="0.23257373" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49861878" weight="0.40946168" />
-      <window_info id="Structure" order="1" sideWeight="0.5013812" side_tool="true" weight="0.23257373" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32872927" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.13278009" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49861878" visible="true" weight="0.20107238" />
+      <window_info id="Structure" order="1" sideWeight="0.5013812" side_tool="true" weight="0.23257373" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.03314917" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="4" />
-      <window_info x="236" y="140" width="492" height="724" id="UI Designer" order="6" weight="0.28955954" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32872927" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info x="236" y="140" width="492" height="724" id="UI Designer" order="6" weight="0.288874" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.25414366" />
+      <window_info anchor="bottom" id="Database Console" order="8" weight="0.28412256" />
       <window_info anchor="right" id="Database" order="6" weight="0.16756032" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.11554333" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32872927" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.25414366" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info id="Capture Tool" order="3" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.33425415" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.3297587" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info id="Favorites" order="5" sideWeight="0.5013812" side_tool="true" weight="0.23257373" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -851,13 +952,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/modest/client/service/Connect2Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/modest/client/dao/AccountDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1100">
@@ -879,13 +973,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/modest/client/service/PrivateChatGui.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="946">
-          <caret line="50" column="57" selection-start-line="50" selection-start-column="57" selection-end-line="50" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/modest/client/service/CreateGroupGui.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="530">
@@ -901,6 +988,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/modest/client/service/GroupChatGui.form">
       <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/read.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/modest/server/MultiThreadServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="85" column="52" lean-forward="true" selection-start-line="85" selection-start-column="52" selection-end-line="85" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/modest/client/service/Connect2Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="39" column="41" lean-forward="true" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/modest/client/service/UserLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="81" column="37" lean-forward="true" selection-start-line="81" selection-start-column="37" selection-end-line="81" selection-end-column="37" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/modest/client/service/GroupChatGui.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -918,34 +1033,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/modest/server/MultiThreadServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-495">
-          <caret line="103" selection-start-line="103" selection-end-line="103" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/modest/client/service/UserLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-55">
-          <caret line="57" column="34" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/modest/client/service/FriendsList.form">
       <provider selected="true" editor-type-id="ui-designer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/modest/client/service/FriendsList.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/modest/client/service/PrivateChatGui.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="174" column="47" selection-start-line="174" selection-start-column="47" selection-end-line="174" selection-end-column="47" />
+        <state relative-caret-position="334">
+          <caret line="76" column="10" selection-start-line="76" selection-start-column="10" selection-end-line="76" selection-end-column="10" />
+          <folding>
+            <element signature="e#1411#2249#0" expanded="true" />
+            <element signature="e#2248#2249#0" expanded="true" />
+            <element signature="e#2305#2306#0" expanded="true" />
+            <element signature="e#2346#2347#0" expanded="true" />
+            <element signature="e#2377#2378#0" expanded="true" />
+            <element signature="e#2410#2411#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/read.txt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/modest/client/service/FriendsList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        <state relative-caret-position="106">
+          <caret line="85" column="84" selection-start-line="85" selection-start-column="84" selection-end-line="85" selection-end-column="84" />
+          <folding>
+            <element signature="e#6760#6761#0" expanded="true" />
+            <element signature="e#6811#6812#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

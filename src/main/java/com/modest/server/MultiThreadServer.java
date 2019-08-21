@@ -73,7 +73,11 @@ public class MultiThreadServer {
                         System.out.println(username+"上线了");
                         System.out.println("当前聊天室共有"+clients.size());
                     } else if(msgFromClient.getType().equals("2")) {
+                        //messageVo.setType("2");
+                        //messageVo.setContent(myName+"-"+msg);
+                        //messageVo.setTo(friendName);
                         String friendName = msgFromClient.getTo();
+                        System.out.println(friendName);
                         Socket socket = clients.get(friendName);
 
                         try {

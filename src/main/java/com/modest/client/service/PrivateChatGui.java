@@ -26,6 +26,12 @@ public class PrivateChatGui {
     private String friendName;
     private String myName;
 
+    /**
+     *
+     * @param myName
+     * @param friendName 好友名称
+     * @param connect2Server
+     */
     public PrivateChatGui(String myName, String friendName, Connect2Server connect2Server) {
         this.myName = myName;
         this.friendName = friendName;
@@ -68,7 +74,7 @@ public class PrivateChatGui {
 
     }
 
-    private void readFromServer(String msg) {
+    public void readFromServer(String msg) {
         readText.append(msg+"\n");
     }
 

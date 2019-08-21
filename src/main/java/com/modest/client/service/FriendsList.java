@@ -83,10 +83,13 @@ public class FriendsList {
 
                             //判断私聊是否第一次创建
                             if (privateChatGuiMap.containsKey(friendName)) {
+                                privateChatGuiMap.get(friendName).readFromServer(friendName+msg);
                                 privateChatGuiMap.get(friendName).getFrame().setVisible(true);
                             } else {
                                 PrivateChatGui privateChatGui = new PrivateChatGui(userName, friendName, connect2Server);
+                                privateChatGui.readFromServer(msg);
                                 privateChatGuiMap.put(friendName, privateChatGui);
+                                privateChatGui.getFrame().setVisible(true);
                             }
 
                         } else if(messageVo.getType().equals("4")) {
@@ -139,20 +142,24 @@ public class FriendsList {
         /**
          * 当前界面的名称   朋友的名称
          */
-        private String name;
+        private String friendName;
 
         public PrivateChatLabelMouser(String name) {
-            this.name = name;
+            this.friendName = name;
+            System.out.println(name);
         }
 
         @Override
         public void mouseClicked(MouseEvent e) {
-            if(privateChatGuiMap.containsKey(name)) {
-                PrivateChatGui privateChatGui = privateChatGuiMap.get(name);
-                privateChatGuiMap.get(name).getFrame().setVisible(true);
+            if(privateChatGuiMap.containsKey(friendName)) {
+                //私聊界面的名称是私聊的好友名
+                PrivateChatGui privateChatGui = privateChatGuiMap.get(friendName);
+                privateChatGuiMap.get(friendName).getFrame().setVisible(true);
             } else {
-                PrivateChatGui privateChatGui = new PrivateChatGui(name, userName, connect2Server);
-                privateChatGuiMap.put(name, privateChatGui);
+
+                //friendName  是好友名
+                PrivateChatGui privateChatGui = new PrivateChatGui(userName, friendName, connect2Server);
+                privateChatGuiMap.put(friendName, privateChatGui);
             }
         }
 
@@ -178,6 +185,12 @@ public class FriendsList {
     }
 
 
+    /**
+     *
+     * @param userName 用户名
+     * @param users 好友列表
+     * @param connect2Server
+     */
     public FriendsList(String userName, Set<String> users, Connect2Server connect2Server) {
         this.userName = userName;
         this.users = users;
@@ -213,14 +226,23 @@ public class FriendsList {
         JPanel friends = new JPanel();
         friends.setLayout(new BoxLayout(friends, BoxLayout.Y_AXIS));
 
+
+        //遍历好友列表
         Iterator<String> iterator = users.iterator();
         int i = 0;
         while(iterator.hasNext()) {
-            String username = iterator.next();
-            userLabels[i] = new JLabel(username);
+            //获取好友名称
+            String friendName = iterator.next();
+
+            //好友Label
+            userLabels[i] = new JLabel(friendName);
+            userLabels[i].addMouseListener(new PrivateChatLabelMouser(friendName));
             friends.add(userLabels[i]);
             i++;
         }
+
+
+
         // 给私聊界面加在线用户显示label
         friendsList.setViewportView(friends);
 
